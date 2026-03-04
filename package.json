@@ -2,8 +2,19 @@
   "name": "demo-repo",
   "version": "0.2.0",
   "description": "A sample package.json",
+  "engines": {
+    "node": ">=22"
+  },
+  "main": "src/utils.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
   "dependencies": {
     "@primer/css": "17.0.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   },
   "license": "MIT"
 }
