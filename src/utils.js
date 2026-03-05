@@ -4,7 +4,7 @@
  */
 
 /**
- * Soma dois números.
+ * Soma dois números. bora
  * @param {number} a - Primeiro número
  * @param {number} b - Segundo número
  * @returns {number} Soma de a + b
