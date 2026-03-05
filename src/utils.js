@@ -4,7 +4,7 @@
  */
 
 /**
- * Soma dois números. asdasdasd 
+ * Soma dois números.
  * @param {number} a - Primeiro número
  * @param {number} b - Segundo número
  * @returns {number} Soma de a + b

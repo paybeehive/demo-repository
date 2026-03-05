@@ -19,20 +19,26 @@ Repositório sandbox para treino de habilidades em Git, configuração de reposi
 # Instalar dependências
 npm install
 
+# Lint
+npm run lint
+
 # Executar testes
 npm test
 
-# Executar testes em modo watch
+# Build
+npm run build
+
+# Testes em modo watch (desenvolvimento)
 npm run test:watch
 ```
 
 ## GitHub Actions
 
-| Workflow      | Descrição                          |
-|---------------|------------------------------------|
-| Run Tests     | Executa os testes em push/PR       |
-| Proof HTML    | Valida o HTML do projeto           |
-| Auto Assign   | Atribui issues/PRs automaticamente |
+| Workflow    | Descrição                                      |
+|-------------|------------------------------------------------|
+| CI          | Lint, testes e build em push/PR                |
+| Proof HTML  | Valida o HTML do projeto                       |
+| Auto Assign | Atribui issues/PRs ao autor automaticamente   |
 
 ## Licença
 
