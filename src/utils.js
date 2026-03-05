@@ -25,7 +25,7 @@ function subtract(a, b) {
 
 /**
  * Gera uma saudação personalizada.
- * @param {string} name - Nome da pessoa exemplo
+ * @param {string} name - Nome da pessoa
  * @returns {string} Mensagem de saudação
  */
 function greet(name) {
